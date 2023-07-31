@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Ubuntu', sans-serif;
+  
+}
+.logo{
+   padding: 18px;
+   /* border: 2px solid; */
+}
+ul , li{
+  display: inline-block;
+  padding-right: 32px;
+  font-size: 20px;
+}
+
+button{
+  background-color: blue;
+  color: aliceblue;
+  padding: 9px 15px 8px 15px;
+  margin-right: 30px;
+}
+
+.mainNavbar{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar{
+  padding-top:70px;
+  padding-left:35px; 
 }
